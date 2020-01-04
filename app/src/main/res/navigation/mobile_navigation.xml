@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_cops">
+
+    <fragment
+        android:id="@+id/nav_cops"
+        android:name="com.codewithsaurabh.technex.ui.cops"
+        android:label="@string/menu_cops"
+        tools:layout="@layout/cops_fragment" />
+
+    <fragment
+        android:id="@+id/nav_robotic"
+        android:name="com.codewithsaurabh.technex.ui.robotics"
+        android:label="@string/menu_robotics"
+        tools:layout="@layout/robotics_fragment" />
+
+    <fragment
+        android:id="@+id/nav_astronomy"
+        android:name="com.codewithsaurabh.technex.ui.astronomy"
+        android:label="astronomy"
+        tools:layout="@layout/astronomy_fragment" />
+
+    <fragment
+        android:id="@+id/nav_sae"
+        android:name="com.codewithsaurabh.technex.ui.sae"
+        android:label="@string/menu_sae"
+        tools:layout="@layout/sae_fragment" />
+    <fragment
+        android:id="@+id/nav_aeromodelling"
+        android:name="com.codewithsaurabh.technex.ui.aeromodelling"
+        android:label="@string/menu_aeromodelling"
+        tools:layout="@layout/aeromodelling_fragment" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.codewithsaurabh.technex.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+
+</navigation>
