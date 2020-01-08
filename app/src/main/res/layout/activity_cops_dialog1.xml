@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CopsDialog1">
+
+    <Button
+        android:id="@+id/proceed1"
+        android:layout_width="310dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="55dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:fontFamily="cursive"
+        android:onClick="proceed"
+        android:text="Proceed"
+        android:textColor="#099E0D"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="top"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15sp"
+            android:fontFamily="sans-serif"
+            android:padding="10sp"
+            android:text="YOU ARE BEING REDIRECTED TO TECHNEX WEBSITE"
+            android:textColor="#C43408"
+            android:textSize="18sp" />
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:id="@+id/email"-->
+        <!--            android:text="Email: EMAIL HERE"-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:padding="10sp"-->
+        <!--            android:layout_marginBottom="15sp"-->
+        <!--            android:textColor="@color/colorPrimary"-->
+        <!--            android:layout_gravity="center"/>-->
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

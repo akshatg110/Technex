@@ -70,4 +70,46 @@ public class Events extends AppCompatActivity {
     public void register(View view){
         startActivity(new Intent(getApplicationContext(),Register.class));
     }
+    public void CE1(View view){
+        startActivity(new Intent(getApplicationContext(),CE1.class));
+    }
+    public void CE2(View view){
+        startActivity(new Intent(getApplicationContext(),CE2.class));
+    }
+    public void CE3(View view){
+        startActivity(new Intent(getApplicationContext(),CE3.class));
+    }
+    public void RE1(View view){
+        startActivity(new Intent(getApplicationContext(),RE1.class));
+    }
+    public void RE2(View view){
+        startActivity(new Intent(getApplicationContext(),RE2.class));
+    }public void RE3(View view){
+        startActivity(new Intent(getApplicationContext(),RE3.class));
+    }public void AE1(View view){
+        startActivity(new Intent(getApplicationContext(),AE1.class));
+    }
+    public void AE2(View view){
+        startActivity(new Intent(getApplicationContext(),AE2.class));
+    }public void AE3(View view){
+        startActivity(new Intent(getApplicationContext(),AE3.class));
+    }
+    public void SE1(View view){
+        startActivity(new Intent(getApplicationContext(),SE1.class));
+    }
+    public void SE2(View view){
+        startActivity(new Intent(getApplicationContext(),SE2.class));
+    }
+    public void SE3(View view){
+        startActivity(new Intent(getApplicationContext(),SE3.class));
+    }
+    public void AT1(View view){
+        startActivity(new Intent(getApplicationContext(),AT1.class));
+    }
+    public void AT2(View view){
+        startActivity(new Intent(getApplicationContext(),AT2.class));
+    }
+    public void AT3(View view){
+        startActivity(new Intent(getApplicationContext(),AT3.class));
+    }
 }

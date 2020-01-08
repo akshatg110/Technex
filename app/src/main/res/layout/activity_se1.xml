@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SE1">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Cevent1"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/a"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout"
+            tools:layout_editor_absoluteX="18dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:text="Event-1"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:onClick="register"
+                android:layout_gravity="center_horizontal"
+                android:text="Register" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Cevent2"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/a"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Cevent1">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:onClick="register"
+                android:layout_gravity="center_horizontal"
+                android:text="Register" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Cevent3"
+            android:layout_width="match_parent"
+            android:layout_height="243dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/a"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/Cevent2"
+            tools:layout_editor_absoluteX="0dp">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="190dp"
+                android:onClick="register"
+                android:layout_gravity="center_horizontal"
+                android:text="Register" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

@@ -13,86 +13,65 @@
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/Cevent1"
             android:layout_width="match_parent"
             android:layout_height="230dp"
             android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
             android:background="@drawable/a"
+            android:onClick="CE1"
             app:cardCornerRadius="15dp">
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
+                android:layout_height="216dp"
                 android:paddingLeft="18dp"
                 android:paddingRight="18dp"
                 android:text="Event-1"
                 android:textSize="30sp" />
 
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="146dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
-                android:layout_marginTop="180dp"
-                android:layout_marginRight="100dp"
-                android:onClick="register"
-                android:text="Register" />
+
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/Cevent2"
             android:layout_width="match_parent"
             android:layout_height="230dp"
             android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
             android:background="@drawable/a"
+            android:onClick="CE2"
             app:cardCornerRadius="20dp">
 
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
-                android:layout_marginTop="180dp"
-                android:layout_marginRight="100dp"
-                android:onClick="register"
-                android:text="Register" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 android:paddingLeft="18dp"
-                android:paddingRight="18dp"/>
+                android:paddingRight="18dp" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/Cevent3"
             android:layout_width="match_parent"
             android:layout_height="243dp"
             android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
             android:background="@drawable/a"
+            android:onClick="CE3"
             app:cardCornerRadius="20dp">
-
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="152dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
-                android:layout_marginTop="190dp"
-                android:layout_marginRight="100dp"
-                android:onClick="register"
-                android:text="Register" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 android:paddingLeft="18dp"
-                android:paddingRight="18dp"/>
+                android:paddingRight="18dp" />
         </androidx.cardview.widget.CardView>
 
 

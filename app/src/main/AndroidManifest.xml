@@ -3,6 +3,7 @@
     package="com.codewithsaurabh.technex">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,31 +11,55 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".googleAuth">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Schedule" />
+        <activity android:name=".CopsDialog1" />
+        <activity android:name=".AT3" />
+        <activity android:name=".AT2" />
+        <activity android:name=".AT1" />
+        <activity android:name=".SE3" />
+        <activity android:name=".SE2" />
+        <activity android:name=".SE1" />
+        <activity android:name=".AE3" />
+        <activity android:name=".AE2" />
+        <activity android:name=".AE1" />
+        <activity android:name=".RE2" />
+        <activity android:name=".RE3" />
+        <activity android:name=".RE1" />
+        <activity android:name=".CE3" />
+        <activity android:name=".CE2" />
+        <activity android:name=".CE1" />
+        <activity android:name=".Cevent1" />
+        <activity android:name=".googleAuth" />
         <activity android:name=".reg" />
         <activity android:name=".workshop" />
         <activity android:name=".profile" />
-        <activity android:name=".login" />
-<!--        <activity-->
-<!--            android:name=".ui.login.login"-->
-<!--            android:label="@string/title_activity_login" />-->
+        <activity android:name=".login" /> <!-- <activity -->
+        <!-- android:name=".ui.login.login" -->
+        <!-- android:label="@string/title_activity_login" /> -->
         <activity android:name=".Register" />
         <activity
             android:name=".Events"
             android:label="@string/title_activity_events"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity"/>
+
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <service android:name=".MyMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
