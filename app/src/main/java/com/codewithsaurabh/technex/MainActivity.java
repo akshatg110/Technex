@@ -6,9 +6,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -22,33 +25,68 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.O){
-            NotificationChannel channel=new NotificationChannel("MyNotification","MyNotification", NotificationManager.IMPORTANCE_DEFAULT);
-            NotificationManager manager=getSystemService(NotificationManager.class);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            NotificationChannel channel = new NotificationChannel("MyNotification", "MyNotification", NotificationManager.IMPORTANCE_DEFAULT);
+            NotificationManager manager = getSystemService(NotificationManager.class);
             manager.createNotificationChannel(channel);
         }
         FirebaseMessaging.getInstance().subscribeToTopic("general")
-          .addOnCompleteListener(new OnCompleteListener<Void>() {
-              @Override
-              public void onComplete(@NonNull Task<Void> task) {
-                  String msg="succesfull";
-                  if(!task.isSuccessful()) {
-                      msg = "Failed";
-                  }
-              }
-          });
+                .addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        String msg = "succesfull";
+                        if (!task.isSuccessful()) {
+                            msg = "Failed";
+                        }
+                    }
+                });
     }
-    public void events(View view){
-        startActivity(new Intent(getApplicationContext(),Events.class));
+
+        @Override
+        public void onBackPressed () {
+
+        }
+
+    public void events(View view) {
+        startActivity(new Intent(getApplicationContext(), Events.class));
     }
-    public void profile(View view){
-        startActivity(new Intent(getApplicationContext(),profile.class));
+
+    public void workshop(View view) {
+        startActivity(new Intent(getApplicationContext(), workshop.class));
     }
-    public void workshop(View view){
-        startActivity(new Intent(getApplicationContext(),workshop.class));
+
+    public void schedule(View view) {
+        startActivity(new Intent(getApplicationContext(), Schedule.class));
     }
-    public void schedule(View view){
-        startActivity(new Intent(getApplicationContext(),Schedule.class));
+
+    public void startup(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/startupFair"));
+        startActivity(intent);
+    }
+    public void exibition(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/exhibitions"));
+        startActivity(intent);
+    }
+    public void kaleidoscope(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/kaleidoscope"));
+        startActivity(intent);
+    }
+    public void thinktalks(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/thinkTalks"));
+        startActivity(intent);
+    }
+    public void initiative(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/initiatives"));
+        startActivity(intent);
+    }
+    public void corporate(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/corporateConclave"));
+        startActivity(intent);
+    }
+    public void gaming(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/gaming"));
+        startActivity(intent);
     }
 
 }
+

@@ -6,21 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".CopsDialog1">
 
-    <Button
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="199dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="-27dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bgwologo" />
+
+    <TextView
         android:id="@+id/proceed1"
         android:layout_width="310dp"
         android:layout_height="61dp"
-        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="55dp"
-        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:layout_marginTop="98dp"
         android:fontFamily="cursive"
-        android:onClick="proceed"
-        android:text="Proceed"
+        android:gravity="end"
+        android:padding="13dp"
+        android:text="@string/linktosite"
         android:textColor="#099E0D"
-        android:textSize="24sp" />
+        android:textSize="30sp"
+        android:autoLink="all"
+        android:linksClickable="true"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -39,18 +50,9 @@
             android:fontFamily="sans-serif"
             android:padding="10sp"
             android:text="YOU ARE BEING REDIRECTED TO TECHNEX WEBSITE"
-            android:textColor="#C43408"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
             android:textSize="18sp" />
-        <!--        <TextView-->
-        <!--            android:layout_width="wrap_content"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:id="@+id/email"-->
-        <!--            android:text="Email: EMAIL HERE"-->
-        <!--            android:textSize="18sp"-->
-        <!--            android:padding="10sp"-->
-        <!--            android:layout_marginBottom="15sp"-->
-        <!--            android:textColor="@color/colorPrimary"-->
-        <!--            android:layout_gravity="center"/>-->
+
 
 
     </LinearLayout>

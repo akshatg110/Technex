@@ -75,7 +75,7 @@ public class profile extends AppCompatActivity {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if (firebaseAuth.getCurrentUser() == null) {
-                    startActivity(new Intent(profile.this, googleAuth.class));
+                   // startActivity(new Intent(profile.this, googleAuth.class));
                 }
             }
         };
