@@ -11,6 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".AT5"></activity>
+        <activity android:name=".AT4" />
+        <activity android:name=".AE4" />
+        <activity android:name=".RE4" />
+        <activity android:name=".SE4" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,8 +53,7 @@
             android:name=".Events"
             android:label="@string/title_activity_events"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity"/>
-
+        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

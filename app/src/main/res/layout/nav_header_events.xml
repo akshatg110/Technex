@@ -27,5 +27,4 @@
         android:text="@string/clubs"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="18sp" />
-
 </LinearLayout>

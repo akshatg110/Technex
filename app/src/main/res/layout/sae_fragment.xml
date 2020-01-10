@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.cops">
+    tools:context=".ui.cops"
+    android:background="@drawable/bgwologo">
 
 
     <LinearLayout
@@ -18,19 +19,36 @@
             android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
-            android:onClick="SE1"
+
             app:cardCornerRadius="15dp">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tech"/>
+
             <TextView
+                android:textColor="@android:color/white"
+                android:text="Axelerate"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 android:paddingLeft="18dp"
-                android:paddingRight="18dp"
-                android:text="Event-1"
-                android:textSize="30sp" />
-
-               </androidx.cardview.widget.CardView>
+                android:paddingRight="18dp"/>
+            <Button
+                android:layout_marginBottom="10dp"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="190dp"
+                android:layout_marginRight="100dp"
+                android:onClick="dialog"
+                android:text="Register"
+                android:background="@drawable/button2"/>
+        </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -38,16 +56,36 @@
             android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
-            android:onClick="SE2"
+
             app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tech"/>
 
 
             <TextView
+                android:textColor="@android:color/white"
+                android:text="Goldberg's Alley"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 android:paddingLeft="18dp"
-                android:paddingRight="18dp" />
+                android:paddingRight="18dp"/>
+            <Button
+                android:layout_marginBottom="10dp"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="190dp"
+                android:layout_marginRight="100dp"
+                android:onClick="dialog"
+                android:text="Register"
+                android:background="@drawable/button2"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -56,17 +94,74 @@
             android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
-            android:onClick="SE3"
+
             app:cardCornerRadius="20dp">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tech"/>
+
             <TextView
+                android:textColor="@android:color/white"
+                android:text="Hydracs"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 android:paddingLeft="18dp"
-                android:paddingRight="18dp" />
+                android:paddingRight="18dp"/>
+            <Button
+                android:layout_marginBottom="10dp"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="190dp"
+                android:layout_marginRight="100dp"
+                android:onClick="dialog"
+                android:text="Register"
+                android:background="@drawable/button2"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="18dp"
+
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tech"/>
 
 
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:text="Drone Tech"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"/>
+            <Button
+                android:layout_marginBottom="10dp"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="190dp"
+                android:layout_marginRight="100dp"
+                android:onClick="dialog"
+                android:text="Register"
+                android:background="@drawable/button2"/>
         </androidx.cardview.widget.CardView>
 
 

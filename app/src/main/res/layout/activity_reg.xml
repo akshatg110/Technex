@@ -5,6 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".reg">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg" />
+
     <LinearLayout
         android:layout_width="399dp"
         android:layout_height="520dp"
@@ -29,7 +35,11 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="Name"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:background="@drawable/edittextdesign"
+                android:textColorHint="@android:color/white"
+                android:textAlignment="center"/>
         </LinearLayout>
 
         <LinearLayout
@@ -47,7 +57,11 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="Email"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/white"
+                android:background="@drawable/edittextdesign"
+                android:textColorHint="@android:color/white"
+                android:textAlignment="center"/>
         </LinearLayout>
 
         <LinearLayout
@@ -65,7 +79,11 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:hint="Branch"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:background="@drawable/edittextdesign"
+                android:textColorHint="@android:color/white"
+                android:textAlignment="center"/>
         </LinearLayout>
 
         <LinearLayout
@@ -83,7 +101,9 @@
                 android:layout_marginRight="80dp"
                 android:layout_weight="1"
                 android:onClick="sub1"
-                android:text="SUBMIT" />
+                android:text="SUBMIT"
+                android:textColor="@android:color/white"
+                android:background="@drawable/cbutton"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
