@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "89371060588-v186v1c1vpc4bkok8q46bvs69mppg72p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codewithsaurabh.technex",
+            "certificate_hash": "2f37d16a0ecd5777f009a22656a42a626eeb4b8b"
+          }
+        },
+        {
           "client_id": "89371060588-mfpgfht7tpr0d7u68p0cljqtaus3cad1.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -37,7 +45,7 @@
       ],
       "api_key": [
         {
-          "current_key": "HIDDEN"
+          "current_key": "AIzaSyDZBX1qdfX2ZrB_A6lZ2a6LvoQWfehcHo4"
         }
       ],
       "services": {
