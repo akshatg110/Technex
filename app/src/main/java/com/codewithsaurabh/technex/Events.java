@@ -1,11 +1,7 @@
 package com.codewithsaurabh.technex;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import android.view.View;
 
@@ -46,8 +42,8 @@ public class Events extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_cops, R.id.nav_robotic, R.id.nav_astronomy,
-                R.id.nav_sae, R.id.nav_aeromodelling, R.id.nav_share)
+                R.id.nav_ascension, R.id.nav_pahal, R.id.nav_ByteTheBits,
+                R.id.nav_extremeEngineering, R.id.nav_robonex,R.id.nova_riqueza,R.id.nova_modex,R.id.nav_supernova, R.id.nav_share)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);

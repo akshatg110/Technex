@@ -3,37 +3,51 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_cops">
+    app:startDestination="@+id/nav_ascension">
 
     <fragment
-        android:id="@+id/nav_cops"
+        android:id="@+id/nav_ascension"
         android:name="com.codewithsaurabh.technex.ui.cops"
-        android:label="@string/menu_cops"
+        android:label="Ascension"
         tools:layout="@layout/cops_fragment" />
 
     <fragment
-        android:id="@+id/nav_robotic"
+        android:id="@+id/nav_pahal"
         android:name="com.codewithsaurabh.technex.ui.robotics"
-        android:label="@string/menu_robotics"
-        tools:layout="@layout/robotics_fragment" />
+        android:label="Pahal"
+        tools:layout="@layout/robotic_fragment" />
 
     <fragment
-        android:id="@+id/nav_astronomy"
+        android:id="@+id/nav_ByteTheBits"
         android:name="com.codewithsaurabh.technex.ui.astronomy"
-        android:label="astronomy"
+        android:label="Byte The Bits"
         tools:layout="@layout/astronomy_fragment" />
 
     <fragment
-        android:id="@+id/nav_sae"
+        android:id="@+id/nav_extremeEngineering"
         android:name="com.codewithsaurabh.technex.ui.sae"
-        android:label="@string/menu_sae"
+        android:label="Extreme Engineering"
         tools:layout="@layout/sae_fragment" />
     <fragment
-        android:id="@+id/nav_aeromodelling"
+        android:id="@+id/nav_robonex"
         android:name="com.codewithsaurabh.technex.ui.aeromodelling"
-        android:label="@string/menu_aeromodelling"
+        android:label="Robonex"
         tools:layout="@layout/aeromodelling_fragment" />
-
+    <fragment
+        android:id="@+id/nova_riqueza"
+        android:name="com.codewithsaurabh.technex.Riqueza"
+        android:label="Riqueza"
+        tools:layout="@layout/riqueza_fragment" />
+    <fragment
+        android:id="@+id/nova_modex"
+        android:name="com.codewithsaurabh.technex.Modex"
+        android:label="Modex"
+        tools:layout="@layout/modex_fragment" />
+    <fragment
+        android:id="@+id/nav_supernova"
+        android:name="com.codewithsaurabh.technex.Supernova"
+        android:label="Supernova"
+        tools:layout="@layout/supernova_fragment" />
     <fragment
         android:id="@+id/nav_share"
         android:name="com.codewithsaurabh.technex.ui.share.ShareFragment"

@@ -19,25 +19,41 @@
             android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
-
+            android:background="@drawable/a"
             app:cardCornerRadius="15dp">
 
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/tech"/>
 
+
             <TextView
-                android:textColor="@android:color/white"
-                android:text="Axelerate"
-                android:layout_marginTop="20dp"
-                android:textSize="30sp"
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center_horizontal"
                 android:paddingLeft="18dp"
-                android:paddingRight="18dp"/>
+                android:paddingRight="18dp"
+                android:text="Axelerate"
+                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="85dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:textColor="@android:color/white"
+                android:text="Detailed Problem Statement"
+                android:gravity="center"
+                android:textSize="15dp" />
+
             <Button
                 android:layout_marginBottom="10dp"
                 android:layout_width="152dp"
@@ -45,9 +61,9 @@
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="190dp"
                 android:layout_marginRight="100dp"
-                android:onClick="dialog"
                 android:text="Register"
                 android:background="@drawable/button2"/>
+
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -56,26 +72,38 @@
             android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
+            android:background="@drawable/a"
 
             app:cardCornerRadius="20dp">
-
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/tech"/>
 
-
             <TextView
-                android:textColor="@android:color/white"
-                android:text="Goldberg's Alley"
-                android:layout_marginTop="20dp"
-                android:textSize="30sp"
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/aclonica"
                 android:paddingLeft="18dp"
-                android:paddingRight="18dp"/>
+                android:paddingRight="18dp"
+                android:text="Goldberg's Alley"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="85dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:textColor="@android:color/white"
+                android:text="Detailed Problem Statement"
+                android:gravity="center"
+                android:textSize="15dp" />
             <Button
                 android:layout_marginBottom="10dp"
                 android:layout_width="152dp"
@@ -83,36 +111,49 @@
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="190dp"
                 android:layout_marginRight="100dp"
-                android:onClick="dialog"
                 android:text="Register"
                 android:background="@drawable/button2"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="243dp"
+            android:layout_height="230dp"
             android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
 
             app:cardCornerRadius="20dp">
-
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/tech"/>
-
             <TextView
-                android:textColor="@android:color/white"
-                android:text="Hydracs"
-                android:layout_marginTop="20dp"
-                android:textSize="30sp"
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center_horizontal"
                 android:paddingLeft="18dp"
-                android:paddingRight="18dp"/>
+                android:paddingRight="18dp"
+                android:text="Hydracs"
+                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="85dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:textColor="@android:color/white"
+                android:text="Detailed Problem Statement"
+                android:gravity="center"
+                android:textSize="15dp" />
+
+
+
             <Button
                 android:layout_marginBottom="10dp"
                 android:layout_width="152dp"
@@ -120,7 +161,6 @@
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="190dp"
                 android:layout_marginRight="100dp"
-                android:onClick="dialog"
                 android:text="Register"
                 android:background="@drawable/button2"/>
         </androidx.cardview.widget.CardView>
@@ -139,19 +179,30 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/tech"/>
-
-
-
             <TextView
-                android:textColor="@android:color/white"
-                android:text="Drone Tech"
-                android:layout_marginTop="20dp"
-                android:textSize="30sp"
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center_horizontal"
                 android:paddingLeft="18dp"
-                android:paddingRight="18dp"/>
+                android:paddingRight="18dp"
+                android:text="Bridge-It"
+                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="85dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:textColor="@android:color/white"
+                android:text="Detailed Problem Statement"
+                android:gravity="center"
+                android:textSize="15dp" />
+
             <Button
                 android:layout_marginBottom="10dp"
                 android:layout_width="152dp"
@@ -159,11 +210,9 @@
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="190dp"
                 android:layout_marginRight="100dp"
-                android:onClick="dialog"
                 android:text="Register"
                 android:background="@drawable/button2"/>
         </androidx.cardview.widget.CardView>
-
 
     </LinearLayout>
 </ScrollView>

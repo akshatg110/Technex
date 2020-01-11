@@ -60,31 +60,31 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startup(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/startupFair"));
+        Intent intent = new Intent(MainActivity.this,Stratup.class);
         startActivity(intent);
     }
     public void exibition(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/exhibitions"));
+        Intent intent = new Intent(MainActivity.this,exibition.class);
         startActivity(intent);
     }
     public void kaleidoscope(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/kaleidoscope"));
+        Intent intent = new Intent(MainActivity.this,kaleidoscope.class);
         startActivity(intent);
     }
     public void thinktalks(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/thinkTalks"));
+        Intent intent = new Intent(MainActivity.this,thinktalks.class);
         startActivity(intent);
     }
     public void initiative(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/initiatives"));
+        Intent intent = new Intent(MainActivity.this,initiative.class);
         startActivity(intent);
     }
     public void corporate(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/corporateConclave"));
+        Intent intent = new Intent(MainActivity.this,corporateConclave.class);
         startActivity(intent);
     }
     public void gaming(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://technex.co.in/gaming"));
+        Intent intent = new Intent(MainActivity.this,gamingDungeon.class);
         startActivity(intent);
     }
 

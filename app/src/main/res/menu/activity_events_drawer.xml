@@ -5,20 +5,29 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_cops"
-            android:title="@string/menu_cops" />
+            android:id="@+id/nav_ascension"
+            android:title="Ascension" />
         <item
-            android:id="@+id/nav_robotic"
-            android:title="@string/menu_robotics" />
+            android:id="@+id/nav_pahal"
+            android:title="Pahal" />
         <item
-            android:id="@+id/nav_astronomy"
-            android:title="@string/astronomy" />
+            android:id="@+id/nav_ByteTheBits"
+            android:title="Byte The Bits" />
         <item
-            android:id="@+id/nav_sae"
-            android:title="@string/menu_sae" />
+            android:id="@+id/nav_extremeEngineering"
+            android:title="Extreme Engineering" />
         <item
-            android:id="@+id/nav_aeromodelling"
-                    android:title="@string/menu_aeromodelling" />
+            android:id="@+id/nav_robonex"
+                    android:title="Robonex" />
+        <item
+            android:id="@+id/nova_riqueza"
+            android:title="Riqueza" />
+        <item
+            android:id="@+id/nova_modex"
+            android:title="Modex" />
+        <item
+            android:id="@+id/nav_supernova"
+            android:title="Supernova" />
     </group>
 
     <item android:title="@string/communicate">
