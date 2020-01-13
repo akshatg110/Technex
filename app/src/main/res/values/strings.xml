@@ -7,6 +7,12 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="auto">Automobile &amp; Vehicle Designing</string>
+    <string name="ai">Artificial Intellingence &amp; Machine Learninig</string>
+    <string name="autocad">AutoCAD &amp; Tyre Dynamics</string>
+    <string name="webdev">Website Devlopment With SEO &amp; CEO</string>
+    <string name="ind">Industrial Automation PLC &amp; SCADA</string>
+
     <string name="linktosite">
         <a href="https://www.technex.co.in">Proceed</a>
     </string>

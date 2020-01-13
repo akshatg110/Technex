@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.cops"
-    android:background="@drawable/bgwologo">
+    android:background="@drawable/background">
 
 
     <LinearLayout
@@ -20,8 +20,8 @@
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
             android:background="@drawable/a"
+            android:layout_gravity="center_horizontal"
             app:cardCornerRadius="15dp">
-
 
             <ImageView
                 android:layout_width="match_parent"
@@ -58,9 +58,8 @@
                 android:layout_marginBottom="10dp"
                 android:layout_width="152dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
                 android:layout_marginTop="190dp"
-                android:layout_marginRight="100dp"
+                android:layout_gravity="center_horizontal"
                 android:text="Register"
                 android:background="@drawable/button2"/>
 
@@ -73,7 +72,7 @@
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
             android:background="@drawable/a"
-
+            android:layout_gravity="center_horizontal"
             app:cardCornerRadius="20dp">
             <ImageView
                 android:layout_width="match_parent"
@@ -108,9 +107,8 @@
                 android:layout_marginBottom="10dp"
                 android:layout_width="152dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
                 android:layout_marginTop="190dp"
-                android:layout_marginRight="100dp"
+                android:layout_gravity="center_horizontal"
                 android:text="Register"
                 android:background="@drawable/button2"/>
         </androidx.cardview.widget.CardView>
@@ -121,7 +119,7 @@
             android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
-
+            android:layout_gravity="center_horizontal"
             app:cardCornerRadius="20dp">
             <ImageView
                 android:layout_width="match_parent"
@@ -158,9 +156,8 @@
                 android:layout_marginBottom="10dp"
                 android:layout_width="152dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
                 android:layout_marginTop="190dp"
-                android:layout_marginRight="100dp"
+                android:layout_gravity="center_horizontal"
                 android:text="Register"
                 android:background="@drawable/button2"/>
         </androidx.cardview.widget.CardView>
@@ -171,7 +168,7 @@
             android:layout_marginLeft="18dp"
             android:layout_marginTop="18dp"
             android:layout_marginRight="18dp"
-
+            android:layout_gravity="center_horizontal"
             app:cardCornerRadius="20dp">
 
             <ImageView
@@ -207,9 +204,8 @@
                 android:layout_marginBottom="10dp"
                 android:layout_width="152dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
                 android:layout_marginTop="190dp"
-                android:layout_marginRight="100dp"
+                android:layout_gravity="center_horizontal"
                 android:text="Register"
                 android:background="@drawable/button2"/>
         </androidx.cardview.widget.CardView>

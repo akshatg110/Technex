@@ -9,4 +9,15 @@
         android:id="@+id/kaleidoscope"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/kaleidoscopeHeader"
+        android:visibility="invisible"
+        android:layout_width="404dp"
+        android:layout_height="61dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingLeft="6dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

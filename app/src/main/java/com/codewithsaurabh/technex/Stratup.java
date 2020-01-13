@@ -10,6 +10,7 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ImageView;
 
 import org.jsoup.Jsoup;
 import org.w3c.dom.Document;
@@ -18,14 +19,17 @@ import java.io.IOException;
 
 public class Stratup extends AppCompatActivity {
     private WebView webview;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stratup);
         webview = findViewById(R.id.startup);
-
-        webview.setWebViewClient(new WebViewClient());
+        webview.setWebViewClient(new WebViewClient(){
+            public void onPageFinished(WebView view,String url){
+                ImageView img=findViewById(R.id.startupHeader);
+                img.setVisibility(View.VISIBLE);
+            }
+        });
         webview.loadUrl("https://technex.co.in/startupFair");
         WebSettings webSettings = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
