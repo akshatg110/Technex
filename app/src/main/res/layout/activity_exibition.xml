@@ -12,6 +12,7 @@
     <ImageView
         android:id="@+id/exhibitionHeader"
         android:visibility="invisible"
+        android:onClick="exi"
         android:layout_width="404dp"
         android:layout_height="61dp"
         android:scaleType="centerCrop"

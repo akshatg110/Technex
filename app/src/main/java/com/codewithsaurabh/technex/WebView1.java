@@ -12,6 +12,7 @@ import android.widget.ImageView;
 
 public class WebView1 extends AppCompatActivity {
  private WebView webview;
+    String url;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +26,7 @@ public class WebView1 extends AppCompatActivity {
                 ImageView img=findViewById(R.id.header);
                 img.setVisibility(View.VISIBLE);
             }
+
         });
         WebSettings webSettings = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
@@ -32,57 +34,76 @@ public class WebView1 extends AppCompatActivity {
         switch (i) {
             case 1:
                 webview.loadUrl("https://technex.co.in/chat-bot");
+                url="https://technex.co.in/chat-bot";
                 break;
 
             case 2:
                 webview.loadUrl("https://technex.co.in/java");
+                url="https://technex.co.in/java";
                 break;
             case 3:
                 webview.loadUrl("https://technex.co.in/digitalmarketing");
+                url="https://technex.co.in/digitalmarketing";
                 break;
             case 4:
                 webview.loadUrl("https://technex.co.in/bridge");
+                url="https://technex.co.in/bridge";
                 break;
             case 5:
                 webview.loadUrl("https://technex.co.in/googlehome");
+                url="https://technex.co.in/googlehome";
                 break;
             case 6:
                 webview.loadUrl("https://technex.co.in/drone");
+                url="https://technex.co.in/drone";
                 break;
             case 7:
                 webview.loadUrl("https://technex.co.in/ardubotics");
+                url="https://technex.co.in/ardubotics";
                 break;
             case 8:
                 webview.loadUrl("https://technex.co.in/automobile");
+                url="https://technex.co.in/automobile";
                 break;
             case 9:
                 webview.loadUrl("https://technex.co.in/hacknex");
+                url="https://technex.co.in/hacknex";
                 break;
             case 10:
                 webview.loadUrl("https://technex.co.in/ai");
+                url="https://technex.co.in/ai";
                 break;
             case 11:
                 webview.loadUrl("https://technex.co.in/autocad");
+                url="https://technex.co.in/autocad";
                 break;
             case 12:
                 webview.loadUrl("https://technex.co.in/iot");
+                url="https://technex.co.in/iot";
                 break;
             case 13:
                 webview.loadUrl("https://technex.co.in/data");
+                url="https://technex.co.in/data";
                 break;
             case 14:
                 webview.loadUrl("https://technex.co.in/webdev");
+                url="https://technex.co.in/webdev";
                 break;
             case 15:
                 webview.loadUrl("https://technex.co.in/raspberry");
+                url="https://technex.co.in/raspberry";
                 break;
             case 16:
                 webview.loadUrl("https://technex.co.in/plc");
+                url="https://technex.co.in/plc";
                 break;
             case 17:
                 webview.loadUrl("https://technex.co.in/appdev");
+                url="https://technex.co.in/appdev";
                 break;
-
         }
+        }
+    public void head(View view){
+        webview.loadUrl(url);
         }
 }

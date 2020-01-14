@@ -26,6 +26,8 @@ public class corporateConclave extends AppCompatActivity {
         webview.loadUrl("https://technex.co.in/corporateConclave");
         WebSettings webSettings = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
-
+    }
+    public void conclave(View view){
+        webview.loadUrl("https://technex.co.in/corporateConclave");
     }
 }

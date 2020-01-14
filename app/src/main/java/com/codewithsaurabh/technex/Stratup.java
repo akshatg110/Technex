@@ -34,4 +34,7 @@ public class Stratup extends AppCompatActivity {
         WebSettings webSettings = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
+    public void start(View view){
+        webview.loadUrl("https://technex.co.in/startupFair");
+    }
 }

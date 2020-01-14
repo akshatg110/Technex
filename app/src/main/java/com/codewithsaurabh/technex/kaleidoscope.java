@@ -26,6 +26,8 @@ public class kaleidoscope extends AppCompatActivity {
         webview.loadUrl("https://technex.co.in/kaleidoscope");
         WebSettings webSettings = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
-
+    }
+    public void kal(View view){
+        webview.loadUrl("https://technex.co.in/kaleidoscope");
     }
 }

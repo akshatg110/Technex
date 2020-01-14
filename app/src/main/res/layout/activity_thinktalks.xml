@@ -12,6 +12,7 @@
     <ImageView
         android:id="@+id/thinktalksHeader"
         android:visibility="invisible"
+        android:onClick="think"
         android:layout_width="404dp"
         android:layout_height="61dp"
         android:scaleType="centerCrop"

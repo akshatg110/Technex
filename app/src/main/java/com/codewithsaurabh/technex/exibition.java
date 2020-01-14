@@ -27,4 +27,7 @@ public class exibition extends AppCompatActivity {
         WebSettings webSettings = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
+    public void exi(View view){
+        webview.loadUrl("https://technex.co.in/exhibitions");
+    }
 }

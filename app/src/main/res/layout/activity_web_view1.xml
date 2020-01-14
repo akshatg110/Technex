@@ -12,8 +12,9 @@
     <ImageView
         android:visibility="invisible"
         android:id="@+id/header"
+        android:onClick="head"
         android:layout_width="404dp"
-        android:layout_height="61dp"
+        android:layout_height="63dp"
         android:scaleType="centerCrop"
         android:src="@drawable/header"
         app:layout_constraintEnd_toEndOf="parent"

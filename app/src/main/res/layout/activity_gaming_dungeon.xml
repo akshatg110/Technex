@@ -13,6 +13,7 @@
         android:id="@+id/gamingHeader"
         android:layout_width="404dp"
         android:layout_height="61dp"
+        android:onClick="game"
         android:scaleType="centerCrop"
         android:src="@drawable/header"
         app:layout_constraintEnd_toEndOf="parent"

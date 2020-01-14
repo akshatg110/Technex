@@ -12,6 +12,7 @@
     <ImageView
         android:id="@+id/initiativeHeader"
         android:layout_width="404dp"
+        android:onClick="init"
         android:layout_height="61dp"
         android:scaleType="centerCrop"
         android:src="@drawable/header"

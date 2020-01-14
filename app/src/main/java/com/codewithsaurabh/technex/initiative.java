@@ -25,6 +25,8 @@ public class initiative extends AppCompatActivity {
         webview.loadUrl("https://technex.co.in/initiatives");
         WebSettings webSettings = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
-
+    }
+    public void init(View view){
+        webview.loadUrl("https://technex.co.in/initiatives");
     }
 }

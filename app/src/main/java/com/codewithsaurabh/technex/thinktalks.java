@@ -28,7 +28,9 @@ public class thinktalks extends AppCompatActivity {
         WebSettings webSettings = webview.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-
+    }
+    public void think(View view){
+        webview.loadUrl("https://technex.co.in/thinkTalks");
     }
 
 }
