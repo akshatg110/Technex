@@ -46,7 +46,9 @@ public class MainActivity extends AppCompatActivity {
         public void onBackPressed () {
 
         }
-
+    public void profile(View view) {
+        startActivity(new Intent(getApplicationContext(), profile.class));
+    }
     public void events(View view) {
         startActivity(new Intent(getApplicationContext(), Events.class));
     }
@@ -87,6 +89,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this,gamingDungeon.class);
         startActivity(intent);
     }
-
+    public void asc1(View view){
+        startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("https://technex.co.in/assets/evps/latr-converted.pdf")));
+    }
 }
 

@@ -38,6 +38,11 @@
         <item>Fourth</item>
         <item>Fifth</item>
     </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others/Not Specified</item>
+    </string-array>
     <string name="menu_cops">COPS</string>
     <string name="menu_robotics">Robotics</string>
     <string name="menu_slideshow">Astronomy</string>

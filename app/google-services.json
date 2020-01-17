@@ -1,29 +1,21 @@
 {
   "project_info": {
-    "project_number": "89371060588",
-    "firebase_url": "https://technex20-1e1b2.firebaseio.com",
-    "project_id": "technex20-1e1b2",
-    "storage_bucket": "technex20-1e1b2.appspot.com"
+    "project_number": "267724660104",
+    "firebase_url": "https://technex2020.firebaseio.com",
+    "project_id": "technex2020",
+    "storage_bucket": "technex2020.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:89371060588:android:45246ad774f5167c172b49",
+        "mobilesdk_app_id": "1:267724660104:android:9723244b0a521157602e3d",
         "android_client_info": {
           "package_name": "com.codewithsaurabh.technex"
         }
       },
       "oauth_client": [
         {
-          "client_id": "89371060588-v186v1c1vpc4bkok8q46bvs69mppg72p.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.codewithsaurabh.technex",
-            "certificate_hash": "2f37d16a0ecd5777f009a22656a42a626eeb4b8b"
-          }
-        },
-        {
-          "client_id": "89371060588-mfpgfht7tpr0d7u68p0cljqtaus3cad1.apps.googleusercontent.com",
+          "client_id": "267724660104-m36f6s8n7t17g0tnj4vokkfqm0ghg7f7.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.codewithsaurabh.technex",
@@ -31,28 +23,28 @@
           }
         },
         {
-          "client_id": "89371060588-sp8hd5ju9j8on8l839313bp9h493dpgn.apps.googleusercontent.com",
+          "client_id": "267724660104-d94kpv8npprhvvce4ooj8ignfgjf8ksb.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.codewithsaurabh.technex",
-            "certificate_hash": "69cc01bd16b8297251115c3e079d43c9fb7ea0ad"
+            "certificate_hash": "2f37d16a0ecd5777f009a22656a42a626eeb4b8b"
           }
         },
         {
-          "client_id": "89371060588-t33hn2cd1f7ktjda9qmd94ccm00bg75j.apps.googleusercontent.com",
+          "client_id": "267724660104-mnvipp7eoqsgk6at924rsar2v54pue26.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDZBX1qdfX2ZrB_A6lZ2a6LvoQWfehcHo4"
+          "current_key": "AIzaSyDma5oFPpYXm20NhsvVRnhCCQoisHn3lgA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "89371060588-t33hn2cd1f7ktjda9qmd94ccm00bg75j.apps.googleusercontent.com",
+              "client_id": "267724660104-mnvipp7eoqsgk6at924rsar2v54pue26.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -52,6 +52,7 @@
                 android:paddingRight="18dp"
                 android:textColor="@android:color/white"
                 android:text="Detailed Problem Statement"
+                android:onClick="asc1"
                 android:gravity="center"
                 android:textSize="15dp" />
 
