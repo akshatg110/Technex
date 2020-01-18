@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/la_trajectoire"/>
 
 
             <TextView
@@ -80,7 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/momentum"/>
 
             <TextView
                 android:id="@+id/textView5"
@@ -128,7 +128,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/d_aero"/>
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
@@ -179,7 +179,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/dronetech"/>
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"

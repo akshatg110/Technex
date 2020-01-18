@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/appathon"/>
 
 
             <TextView
@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/icm"/>
 
             <TextView
                 android:id="@+id/textView5"
@@ -126,7 +126,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/ml_ware"/>
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"

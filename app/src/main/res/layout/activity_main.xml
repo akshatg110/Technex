@@ -34,23 +34,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.71000004">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="15dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginBottom="15dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="horizontal">-->
 
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/cbutton"
-                android:onClick="profile"
-                android:text="PROFILE"
-                android:textColor="@android:color/white" />
-        </LinearLayout>
+<!--            <Button-->
+<!--                android:id="@+id/button2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/cbutton"-->
+<!--                android:onClick="profile"-->
+<!--                android:text="PROFILE"-->
+<!--                android:textColor="@android:color/white" />-->
+<!--        </LinearLayout>-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -227,6 +227,24 @@
                 android:background="@drawable/cbutton"
                 android:text="GAMING DUNGEON"
                 android:onClick="gaming"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cbutton"
+                android:text="TechnoBot"
+                android:onClick="technobot"
                 android:textColor="@android:color/white" />
         </LinearLayout>
 

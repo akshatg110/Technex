@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/case_a_thon"/>
 
 
             <TextView
@@ -77,7 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/analyticity"/>
 
             <TextView
                 android:id="@+id/textView5"
@@ -124,7 +124,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/krackat"/>
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
@@ -173,14 +173,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/bulls_on_the_floor"/>
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/aclonica"
-
+                android:gravity="center"
                 android:paddingLeft="18dp"
                 android:paddingRight="18dp"
                 android:text="Bulls on The Floor"
@@ -220,7 +220,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/prodman"/>
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"

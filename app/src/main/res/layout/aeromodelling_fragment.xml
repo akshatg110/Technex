@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/pixelate"/>
 
 
             <TextView
@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/maze_xplorer"/>
 
             <TextView
                 android:id="@+id/textView5"
@@ -127,7 +127,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/hurdlemania"/>
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
@@ -177,7 +177,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/robowars"/>
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"

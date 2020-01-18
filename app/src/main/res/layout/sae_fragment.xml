@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/axelerate"/>
 
 
             <TextView
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/goldberg"/>
 
             <TextView
                 android:id="@+id/textView5"
@@ -125,7 +125,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/hydrax"/>
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
@@ -175,7 +175,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/bridge_it"/>
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"

@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/astroquiz"/>
 
 
             <TextView
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/eti"/>
 
             <TextView
                 android:id="@+id/textView5"
@@ -126,7 +126,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/paper_presentation"/>
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
@@ -176,7 +176,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/atsrophotog"/>
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
@@ -223,7 +223,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/tech"/>
+                android:src="@drawable/sou"/>
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"

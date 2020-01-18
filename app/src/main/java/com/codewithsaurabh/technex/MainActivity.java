@@ -89,6 +89,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this,gamingDungeon.class);
         startActivity(intent);
     }
+    public void technobot(View view) {
+        Intent intent = new Intent(MainActivity.this,Technobot.class);
+        startActivity(intent);
+    }
     public void asc1(View view){
         startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("https://technex.co.in/assets/evps/latr-converted.pdf")));
     }
